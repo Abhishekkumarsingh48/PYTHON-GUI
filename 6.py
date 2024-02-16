@@ -1,0 +1,13 @@
+from tkinter import *
+root=Tk()
+root.title("Abhishek")
+root.geometry("350x225+350+350")
+frame=LabelFrame(root,text='Frame')
+frame.pack()
+txt=Text(frame,height=5,bg="aqua")
+txt.pack()
+lbl=Label(root,text="user name")
+lbl.pack()
+ent=Entry(root,width=30)
+ent.pack()
+root.mainloop()
